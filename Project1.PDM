@@ -1,0 +1,134 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Administrator.DEVELOPER\Desktop\compile\kitchen
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINNT\system32\Macromed\Flash\Flash.ocx=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Documents and Settings\Administrator.DEVELOPER\Desktop\phone2.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\asycfilt.dll=Yes
+C:\WINNT\system32\stdole2.tlb=Yes
+E:\program files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINNT\system32\MSJET35.DLL=Yes
+C:\WINNT\system32\MSJTER35.DLL=Yes
+C:\WINNT\system32\MSJINT35.DLL=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\MSRD2X35.DLL=Yes
+C:\WINNT\system32\MSREPL35.DLL=Yes
+E:\program files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\Macromed\Flash\Flash.ocx=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\WINNT\system32\MSRDO20.DLL=Yes
+C:\WINNT\system32\RDOCURS.DLL=Yes
+E:\program files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\program files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\program files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+E:\program files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Documents and Settings\Administrator.DEVELOPER\Desktop\phone2.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+E:\program files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+E:\program files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\Macromed\Flash\Flash.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINNT\system32\RDOCURS.DLL=$(WinSysPath)
+E:\program files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+E:\program files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\program files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\program files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrator.DEVELOPER\Desktop\phone2.exe=No
+E:\program files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=KITCHEN HOUSE
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=KITCHEN HOUSE
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|KITCHEN HOUSE]
+Icon1=phone2.exe
+Title1=KITCHEN HOUSE
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Documents and Settings\Administrator.DEVELOPER\Desktop\compile\kitchen
+ProjectFolder=C:\Documents and Settings\Administrator.DEVELOPER\Desktop\address bo20496632001
+ServerSideCab=
+File1=C:\Documents and Settings\Administrator.DEVELOPER\Desktop\compile\kitchen\setup.exe
+File2=C:\Documents and Settings\Administrator.DEVELOPER\Desktop\compile\kitchen\Setup.Lst
+File3=C:\Documents and Settings\Administrator.DEVELOPER\Desktop\compile\kitchen\phone2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
